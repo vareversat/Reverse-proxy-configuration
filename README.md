@@ -1,7 +1,7 @@
 # How to make a reverse proxy
 This little tutorial will help you (I hope) to create a reverse https proxy to redirect your incomming trafic from internet to a specific service (like on your NAS, access to Plex and your DSM with the same IP)
 
-## Prerequisite
+## Prerequisites
   - A Raspeberry Pi (or any computer you have with Ubuntu 18.04 LTS. Your gamming PC is way to powerfull, sorry...)
   - An internet connection (obviously)
   - ~ 30 mins
