@@ -44,6 +44,6 @@ You need to redirect your incomming trafic to your reverse proxy server via NAT 
 ## Bonus step : Certbot automating renewal
 With a ***cron*** tab, you can automaticaly renew your domain certificate <br>
   1. Setup ***cron*** :<br>
-    `crontab -e`
+    `$ crontab -e`
   2. Copy this command in your cron file : <br>
     `0 0,12 * * * python -c 'import random; import time; time.sleep(random.random() * 3600)' && /usr/local/bin/certbot-auto renew `
