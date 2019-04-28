@@ -9,8 +9,8 @@ This little tutorial will help you (I hope) to create a reverse https proxy to r
 ## Step 1 : Setup your ISP router
 You need to redirect your incomming trafic to your reverse proxy server via NAT config (port fowarding). 
 
-  - ***http*** :  `{INTERNET} ------------ 80 [ISP ROUTE] 80 ------------ [PROXY SERVER]` <br>
-  - ***https*** : `{INTERNET} ------------ 443 [ISP ROUTE] 443 ------------ [PROXY SERVER]`
+  - ***http*** :  `{INTERNET} ------------ 80 [ISP ROUTER] 80 ------------ [PROXY SERVER]` <br>
+  - ***https*** : `{INTERNET} ------------ 443 [ISP ROUTER] 443 ------------ [PROXY SERVER]`
   
 ## Step 2 : Configure apache
   1. Install ***apache2*** on your server : <br>
