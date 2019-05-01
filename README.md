@@ -20,7 +20,7 @@ You need to redirect your incomming trafic to your reverse proxy server via NAT 
   3. Restart ***apache2*** : <br>
       `$ sudo service apache2 restart` <br>
   4. Download and copy ***proxy_http.conf*** into the correct folder : <br>
-      `$ sudo mv proxy_http.conf /etc/apache2/sites-available/` (**make sure to cofigure this file with your domain name and your destination server**) <br>
+      `$ sudo mv proxy_http.conf /etc/apache2/sites-available/` (**make sure you configured this file with your domain name and your destination server**) <br>
   5. Enable the site : <br>
       `$ sudo a2ensite proxy_http.conf` <br>
   6. Reload ***apache2*** : <br>
