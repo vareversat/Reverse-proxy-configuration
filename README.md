@@ -15,8 +15,8 @@ You need to redirect your incomming trafic to your reverse proxy server via NAT 
 ## Step 2 : Configure apache
   1. Install ***apache2*** on your server : <br>
       `$ sudo apt-get install apache2`. <br>
-  2. Enable ***proxy***, ***proxy_http*** and ***ssl*** mods : <br>
-      `$ sudo a2enmod proxy && sudo a2enmod proxy_http && sudo a2enmod ssl` <br>
+  2. Enable ***rewrite***, ***proxy***, ***proxy_http*** and ***ssl*** mods : <br>
+      `$ sudo a2enmod proxy && sudo a2enmod rewrite && sudo a2enmod proxy_http && sudo a2enmod ssl` <br>
   3. Restart ***apache2*** : <br>
       `$ sudo service apache2 restart` <br>
   4. Download and copy ***proxy_http.conf*** into the correct folder : <br>
